@@ -1,0 +1,53 @@
+/*généralités*/
+h1{
+    color:red;
+}
+h2,h3,h4,p,li,a{
+    color: aliceblue;
+}
+h1,h2{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+/*liens*/
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.texte a{
+    color:crimson;
+}
+.texte li{
+    list-style:disc;
+    padding: 3px 0 3px 0;
+}
+/*disposition*/
+body{
+    background: rgb(28, 3, 75);
+}
+main{
+    display: flex;
+}
+.texte,.sommaire,.plan{
+    border:1px solid black;
+    padding: 2px 5px 2px 5px;
+}
+.texte{
+    width: 60%;
+}
+.plan{
+    width: 15%;
+}
+.sommaire{
+    order:1;
+    width: 25%;
+}
+.tableau{
+    position: sticky;
+    top:0;
+}
