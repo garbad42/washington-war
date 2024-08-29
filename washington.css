@@ -1,3 +1,9 @@
+/*réinitialisation*/
+*,::before,::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
 /*généralités*/
 h1{
     color:red;
@@ -7,6 +13,9 @@ h2,h3,h4,p,li,a{
 }
 h1,h2{
     text-align: center;
+}
+h1,h2,h3,h4{
+    padding:10px 0 5px 10px;
 }
 li{
     list-style-type: none;
@@ -26,10 +35,13 @@ a{
 }
 a:hover{
     text-decoration: underline;
-    color: blueviolet;
+    color: white;
 }
 .texte a{
     color:crimson;
+}
+.texte a:hover{
+    font-weight: bold;
 }
 .texte li{
     list-style:disc;
@@ -42,32 +54,38 @@ body{
 main{
     display: flex;
 }
-/*.texte,.sommaire,.plan{
-    border:1px solid black;
-    padding: 2px 5px 2px 5px;
-}*/
+header{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
 .texte{
     width: 60%;
+    padding-right: 5px;
 }
-.plan{
-    width: 15%;
+.texte h3,.texte h4{
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 15px;
 }
 .sommaire{
+    width: 15%;
+}
+.contenu{
     order:1;
     width: 25%;
+    border-right: 1px solid white;
 }
 .tableau{
     position: sticky;
     top:0;
+    border-left: 1px solid wheat;
+    margin-left: 5px;
 }
 .tableau h4{
     text-align: center;
+    padding: 10px 0 10px 0;
 }
-.tableau,.sommaire{
-    border: 1px solid white;
-    border-radius: 2px;
-    box-shadow:
-    12px 11.2px 13px -7px rgba(0, 0, 0, 0.47),
-    40.2px 37.5px 43.8px -7px rgba(0, 0, 0, 0.28),
-    180px 168px 196px -7px rgba(0, 0, 0, 0.19);
+.tableau,.contenu,.sommaire,.texte{
+    padding-left: 5px;
 }
