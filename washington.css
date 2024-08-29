@@ -11,6 +11,15 @@ h1,h2{
 li{
     list-style-type: none;
 }
+.note{
+    color:greenyellow;
+}
+.exemple{
+    font-style: italic;
+}
+.titre_chapitre{
+    text-align: left;
+}
 /*liens*/
 a{
     text-decoration: none;
@@ -33,10 +42,10 @@ body{
 main{
     display: flex;
 }
-.texte,.sommaire,.plan{
+/*.texte,.sommaire,.plan{
     border:1px solid black;
     padding: 2px 5px 2px 5px;
-}
+}*/
 .texte{
     width: 60%;
 }
@@ -50,4 +59,15 @@ main{
 .tableau{
     position: sticky;
     top:0;
+}
+.tableau h4{
+    text-align: center;
+}
+.tableau,.sommaire{
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow:
+    12px 11.2px 13px -7px rgba(0, 0, 0, 0.47),
+    40.2px 37.5px 43.8px -7px rgba(0, 0, 0, 0.28),
+    180px 168px 196px -7px rgba(0, 0, 0, 0.19);
 }
