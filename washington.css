@@ -5,29 +5,35 @@
     padding:0;
   }
 /*généralités*/
+
 h1{
     color:red;
 }
-h2,h3,h4,p,li,a{
+/*h2,h3,h4,p,li,a{
     color: aliceblue;
-}
+}*/
 h1,h2{
     text-align: center;
 }
 h1,h2,h3,h4{
     padding:10px 0 5px 10px;
 }
-li{
-    list-style-type: none;
-}
 .note{
-    color:greenyellow;
+    color:rgb(108, 145, 41);
 }
 .exemple{
     font-style: italic;
 }
+header h1{
+    font-size: 60px;
+    text-shadow: 5px 5px 5px pink;
+}
 .titre_chapitre{
     text-align: left;
+}
+li{
+    margin-left: 5%;
+    padding:5px 5px 5px 0;
 }
 /*liens*/
 a{
@@ -35,22 +41,18 @@ a{
 }
 a:hover{
     text-decoration: underline;
-    color: white;
+    color: black;
 }
 .texte a{
-    color:crimson;
+    color:red;
+    font-weight: bold;
 }
 .texte a:hover{
     font-weight: bold;
 }
-.texte li{
-    list-style:disc;
-    padding: 3px 0 3px 0;
-}
+
 /*disposition*/
-body{
-    background: rgb(28, 3, 75);
-}
+
 main{
     display: flex;
 }
@@ -59,36 +61,47 @@ header{
     padding-bottom: 20px;
     border-bottom: 2px solid white;
 }
+.liste_sans_puce li{
+    list-style:none;
+}
+/*texte*/
 .texte{
     width: 60%;
     padding-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 .texte h3,.texte h4{
     text-decoration: underline;
     font-weight: bold;
     padding-bottom: 15px;
 }
+.tableau,.contenu,.sommaire,.texte{
+    padding-left: 5px;
+}
+/*sommaire et contenu*/
 .sommaire{
     width: 15%;
 }
 .contenu{
     order:1;
     width: 25%;
-    border-right: 1px solid white;
 }
 .tableau{
     position: sticky;
     top:0;
-    border-left: 1px solid wheat;
+    border-left: 2px solid black;
     margin-left: 5px;
 }
 .tableau h4{
     text-align: center;
     padding: 10px 0 10px 0;
 }
-.tableau,.contenu,.sommaire,.texte{
-    padding-left: 5px;
+.tableau li{
+    list-style-type: none;
 }
+
 /*1 introduction*/
 .credit{
     border: 2px solid black;
@@ -96,6 +109,7 @@ header{
     width: 60%;
     padding: 0 5px 5px 5px;
     margin-left: 18%;
+    margin-bottom: 10px;
 }
 .credit h3{
     text-align: center;
@@ -103,6 +117,14 @@ header{
 .credit li{
     list-style-type: none;
 }
-.credit p, .credit li, .credit h3{
-    color:black;
+/*game component*/
+.liste_recentree{
+    margin-left:10%;
 }
+.liste_recentree li{
+    list-style: none;
+}
+#image_general{
+    margin-left: 10px;
+}
+
