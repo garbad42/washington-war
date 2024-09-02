@@ -127,4 +127,13 @@ header{
 #image_general{
     margin-left: 10px;
 }
+/*terminology*/
+li img{
+    position:relative;
+    top:20px;
+    z-index: -1;
+}
+.image_centree{
+    margin-left: 17%;
+}
 
