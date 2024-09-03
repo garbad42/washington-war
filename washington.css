@@ -9,14 +9,14 @@
 h1{
     color:red;
 }
-/*h2,h3,h4,p,li,a{
-    color: aliceblue;
-}*/
 h1,h2{
     text-align: center;
 }
 h1,h2,h3,h4{
     padding:10px 0 5px 10px;
+}
+h6{
+    font-size: 1em;
 }
 .note{
     color:rgb(108, 145, 41);
@@ -135,5 +135,9 @@ li img{
 }
 .image_centree{
     margin-left: 17%;
+}
+/*setting up the game*/
+.image_verticale_centree{
+    margin-left: 25%;
 }
 
