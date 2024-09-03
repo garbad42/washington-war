@@ -147,6 +147,9 @@ li img{
     font-weight: bold;
     padding: 10px 0 5px 0;
 }
+ol{
+    margin-bottom: 10px;
+}
 .liste_sequence_of_play{
     margin-top: 10px;
 }
