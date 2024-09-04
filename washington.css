@@ -23,6 +23,7 @@ h6{
 }
 .exemple{
     font-style: italic;
+    margin:10px 10px 0 10px;
 }
 header h1{
     font-size: 60px;
@@ -36,8 +37,9 @@ li{
     padding:5px 5px 5px 0;
 }
 /*liens*/
-a{
+a,a:active{
     text-decoration: none;
+    color: blue;
 }
 a:hover{
     text-decoration: underline;
@@ -71,6 +73,7 @@ header{
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-shadow: 22px 20px 64px -4px rgba(224,80,7,0.46);
 }
 .texte h3,.texte h4{
     text-decoration: underline;
@@ -117,17 +120,14 @@ header{
 .credit li{
     list-style-type: none;
 }
-/*game component*/
+/*2 game component*/
 .liste_recentree{
     margin-left:10%;
 }
 .liste_recentree li{
     list-style: none;
 }
-#image_general{
-    margin-left: 10px;
-}
-/*terminology*/
+/*3 terminology*/
 li img{
     position:relative;
     top:20px;
@@ -136,12 +136,11 @@ li img{
 .image_centree{
     margin-left: 17%;
 }
-/*setting up the game*/
-.image_verticale_centree{
-    /*margin-left: 25%;*/
+/*4 setting up the game*/
+.image_verticale_centree,#image_general{
     margin: 10px auto 10px 25%;
 }
-/*sequence of play*/
+/*5 sequence of play*/
 .titres_sequence_of_play{
     font-size: 1.2em;
     font-weight: bold;
@@ -166,4 +165,16 @@ ol{
     padding: 5px 10px 10px 10px;
 
 }
-
+/*7 movement*/
+.liste_i{
+    margin-left: 60px;
+}
+.image_imbriquee{
+    display:flex;
+    margin: 10px 10px 10px 10px;
+}
+.design_note{
+    color:rgb(5, 50, 92);
+    font-style: italic;
+    margin: 10px 5px 0 40px;
+}
