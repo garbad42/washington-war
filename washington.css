@@ -5,7 +5,6 @@
     padding:0;
   }
 /*généralités*/
-
 h1{
     color:red;
 }
@@ -70,6 +69,7 @@ header{
 .texte{
     width: 60%;
     padding-right: 5px;
+    padding-bottom: 20px;
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -103,6 +103,10 @@ header{
 }
 .tableau li{
     list-style-type: none;
+}
+.sous_titre{
+    font-size: 0.9em;
+    margin-left: 10px;
 }
 
 /*1 introduction*/
@@ -178,5 +182,8 @@ ol{
     font-style: italic;
     margin: 10px 5px 0 40px;
 }
-/*8 reinforcement*/
+/*9 battles*/
+#note_battles{
+    margin-left:0;
+}
 
