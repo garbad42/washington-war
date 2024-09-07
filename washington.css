@@ -186,4 +186,23 @@ ol{
 #note_battles{
     margin-left:0;
 }
+.table_9{
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin:10px auto 10px 0;
+    text-align: left;
+}
+table{
+    border:2px solid black;
+    width:50%;
+    text-align: center;
+    margin:0 auto 10px auto;
+}
+.colonne_gauche{
+    width:20%;
+}
+#vingt_six{
+    margin: 5px auto 5px 40%;
 
+}
