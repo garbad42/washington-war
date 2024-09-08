@@ -186,7 +186,7 @@ ol{
 #note_battles{
     margin-left:0;
 }
-.table_9{
+.titre_table_9{
     font-size: 0.9em;
     font-weight: bold;
     text-decoration: underline;
@@ -195,14 +195,21 @@ ol{
 }
 table{
     border:2px solid black;
-    width:50%;
+    width:45%;
     text-align: center;
     margin:0 auto 10px auto;
 }
 .colonne_gauche{
     width:20%;
 }
-#vingt_six{
+#illustration_9_3{
     margin: 5px auto 5px 40%;
-
 }
+.ligne_impair{
+    background-color:aquamarine;
+}
+.table_9{
+    border-collapse: collapse;
+}
+
+
