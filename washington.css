@@ -31,9 +31,15 @@ header h1{
 .titre_chapitre{
     text-align: left;
 }
+p{
+    text-align: justify;
+    margin-left:5px;
+    margin-right:5px;
+}
 li{
     margin-left: 5%;
     padding:5px 5px 5px 0;
+    text-align: justify;
 }
 /*liens*/
 a,a:active{
@@ -50,6 +56,9 @@ a:hover{
 }
 .texte a:hover{
     font-weight: bold;
+}
+.sous_titre:hover{
+    font-size:1em;
 }
 
 /*disposition*/
@@ -182,11 +191,11 @@ ol{
     font-style: italic;
     margin: 10px 5px 0 40px;
 }
-#titre_movement_clarification{
+#titre_clarification{
     font-size: 1.1em;
     margin-bottom: 10px;
 }
-.movement_clarification{
+.clarification{
     border:1px solid black;
     width:90%;
     margin-left:45px;
@@ -221,6 +230,17 @@ table{
 }
 .table_9{
     border-collapse: collapse;
+}
+.combat_losses p,.combat_losses ul{
+    margin-bottom: 10px;
+}
+.battle_design_note{
+    color:rgb(5, 50, 92);
+    font-style: italic;
+    margin: 10px 5px 0 0;
+}
+.liste_puce_retrait{
+    margin-left:10%;
 }
 
 
