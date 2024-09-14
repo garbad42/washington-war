@@ -57,10 +57,6 @@ a:hover{
 .texte a:hover{
     font-weight: bold;
 }
-.sous_titre:hover{
-    font-size:1em;
-}
-
 /*disposition*/
 
 main{
@@ -241,6 +237,19 @@ table{
 }
 .liste_puce_retrait{
     margin-left:10%;
+}
+/*political control*/
+.ligne_marge_gauche_réduite{
+    margin-left: 5px;
+}
+.clarification h4{
+    text-decoration: none;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.liste_sans_puce .clarification{
+    background-color: white;
+    border: 2px solid black
 }
 
 
