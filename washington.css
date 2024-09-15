@@ -183,6 +183,9 @@ ol{
     display:flex;
     margin: 10px 10px 10px 10px;
 }
+.image_imbriquee img{
+
+}
 .design_note{
     color:rgb(5, 50, 92);
     font-style: italic;
